@@ -5,13 +5,15 @@
    if($_SERVER["REQUEST_METHOD"]=="POST"){
        
         
-        $uname=$_POST["uname"];
-        $password=$_POST["pass"];
+        $username=$_POST["username"];
+        $password=$_POST["password"];
 
 
-         if ($uname=="ridoy" && $password=="1234")
+         if ($username == "ridoy" && $password == "1234")
          {
-                setcookie("username",$uname,time()+120);
+               // setcookie("username",$username,time()+120);
+                session_start();
+                $_SESSION["username"] = $username;
                 header("Location: dashboard.php");
 
                              }
@@ -44,7 +46,7 @@
 				
        <tr>
                     <td>  
-                     <input type="text" placeholder="Enter Your UserName" value=" " name="uname">
+                     <input type="text" placeholder="Enter Your UserName" value=" " name="username">
                             
                         
                     </td>
@@ -52,7 +54,7 @@
 				</tr>
        <tr>
 				<td>
-                <input type="password" placeholder="Enter Your Password" name="pass" >
+                <input type="password" placeholder="Enter Your Password" name="password" >
                             
                         
                     </td>
