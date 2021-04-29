@@ -1,0 +1,44 @@
+
+#services
+{
+	padding: 100px 50px;
+}
+.services-row
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.services-box
+{
+	flex-basis: 25%;
+	text-align: center;
+	box-shadow: 2px 3px 5px grey;
+	padding: 20px;
+	margin-top: 20px;
+	background-color:#E5E4E2;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.services-box:hover
+{
+	background: #8cd8de;
+	color: white;
+	transition: 0.4;
+}
+
+.servicebox_btn
+{
+	background-color: #657383;
+	width: 100px;
+	height: 50px;
+	color: white;
+}

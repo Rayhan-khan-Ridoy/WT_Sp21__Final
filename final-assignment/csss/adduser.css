@@ -1,0 +1,94 @@
+<style>
+          * {
+                margin: 0;
+                padding: 0;
+
+            }
+        .bg {
+            height: 1260px;
+            background-image: url(images/surfingcopy.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+	    width:100%;
+          
+
+        }
+
+
+        .overlay {
+            background-color:gray;
+            opacity: .6;
+            height: 1260px;
+            width: 100%;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .login{
+            
+            width: 100%;
+            position: absolute;
+            margin-top: -1260px;
+            
+        }
+
+        button {
+            background-color: black;
+
+            border-radius: 15px;
+            padding: 5px;
+            width: 77px;
+        }
+
+        button>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        input[type="text"]{
+            background-color: black;
+            padding: 7px;
+            color: white;
+            margin-top: 5px;
+        }
+
+       
+
+	
+        
+        .table{
+            margin-left: 330px;
+            padding: 27px;
+            border-style: groove;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 12px;
+            margin-left: 34%;
+	    padding-bottom: 0px;
+        }
+
+	input[type=submit] {
+   	border-radius: 40px;
+    	width: 66px;
+    	background: white;
+    	padding: 6px;
+    	border-style: none;
+
+	}
+	
+	input[type=submit]:hover{
+   	background-color:#3f50b5e0;
+
+	}
+        
+   
+	fieldset {
+	padding:0px;
+}
+
+    </style>
